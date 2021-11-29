@@ -1,4 +1,5 @@
 import React from 'react'
+import Contact from './../pages/static/Contact';
 
 const CallToAction = () => {
   return (
@@ -12,11 +13,11 @@ const CallToAction = () => {
             DESIGN. BUILD. DEPLOY.
         </h2>
         <p className="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-            Use our award-winning tools to help you maximize your profits. We've uncovered the correct recipe for converting visitors into customers.
+            Helping clients to use their online platform to drive sales through a converting website, ads and ranking in Google.
         </p>
         <div className="flex justify-center mt-8 space-x-3">
             <a href="#" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-indigo-700 border border-transparent rounded-md shadow hover:bg-indigo-700">Schedule Intro Call</a>
-            <a href="#" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-indigo-700 bg-indigo-100 border border-transparent rounded-md hover:bg-indigo-200">Learn more</a>
+            <a href="/Contact" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-indigo-700 bg-indigo-100 border border-transparent rounded-md hover:bg-indigo-200">Learn more</a>
         </div>
     </div>
    

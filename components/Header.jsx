@@ -3,8 +3,9 @@ import React, { useState } from "react";
 function MyApp() {
   const [show, setShow] = useState(false);
   return (
-    <div>
-      
+    <div className="overflow-hidden">
+      <img className="absolute lg:right-72 z-0 w-1/3 transform -translate-y-1/2 opacity-70 top-3/4" src="https://cdn.devdojo.com/tails/images/gradient-blob.svg" />
+    <img className="absolute right-72 z-0 object-cover object-center w-full h-1/2 opacity-30 overflow-hidden" src="https://cdn.devdojo.com/tails/images/swirl-white.svg" />
       <div className="grid md:grid-cols-1 mx-auto container relative px-4 pt-8 xl:px-6">
         <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 items-center pb-20">
           <div className="xl:mt-8">
@@ -29,7 +30,7 @@ function MyApp() {
             </button>
             <div className="text-3xl lg:text-6xl xl:text-8xl text-gray-800 tracking-1px font-extrabold">
               <h1 className="lg:text-7xl leading-tight mt-3 lg:mt-4">
-                I Build Expressive Websites{" "}
+                I Design & Develop Transformational Websites{" "}
               </h1>
             </div>
             <h2 className="text-base lg:text-lg tracking-wide leading-9 lg:w-10/12 mt-2 lg:mt-6 text-gray-700">
@@ -42,17 +43,19 @@ function MyApp() {
             </div>
           </div>
 
-          <div className="gap-2 p-4 grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4" >
+          <div className=" pl-48 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3" >
+         
             <div>
+            
               <div className="flex w-36 h-64 mt-12 rounded-md ">
                 <img
-                  src="https://www.g20.org/wp-content/uploads/2021/01/people.jpg"
+                  src="https://res.cloudinary.com/david-j-forer/image/upload/c_scale,w_144/v1638083092/IMG_20190615_161956_fsf9uq.jpg"
                   className="rounded-md"
                 />
               </div>
               <div className="flex bg-red-500  w-36 h-64 mt-8 rounded-md object-scale-down">
                 <img
-                  src="https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/02/Female_Portrait_1296x728-header-1296x729.jpg?w=1155&h=2268"
+                  src="https://res.cloudinary.com/david-j-forer/image/upload/c_scale,w_144/v1638084921/IMG_1037_o2aahg.jpg"
                   className="rounded-md"
                 />
               </div>
@@ -60,13 +63,13 @@ function MyApp() {
             <div>
               <div className="flex bg-yellow-500 w-36 h-64 mt-24 rounded-md object-contain">
                 <img
-                  src="https://publicpolicy.unc.edu/wp-content/uploads/sites/107/2020/05/danielle_allen.png"
+                  src="https://res.cloudinary.com/david-j-forer/image/upload/c_scale,w_144/v1638084914/LBYU0235_heci8m.jpg"
                   className="rounded-md"
                 />
               </div>
               <div className="flex bg-green-500 w-36 h-64 mt-8 rounded-md">
                 <img
-                  src="https://davidjforer.com/wp-content/uploads/2021/11/origin.jpg"
+                  src="https://res.cloudinary.com/david-j-forer/image/upload/c_scale,w_144/v1638088929/IMG-20190323-WA0003_m3yda9.jpg"
                   className="rounded-md"
                 />
               </div>
@@ -74,35 +77,22 @@ function MyApp() {
             <div>
               <div className="flex bg-gray-500 w-36 h-64 rounded-md">
                 <img
-                  src="https://davidjforer.com/wp-content/uploads/2021/11/origin.jpg"
+                  src="https://res.cloudinary.com/david-j-forer/image/upload/c_scale,w_144/v1638084914/IMG-20190110-WA0001_mxhhrl.jpg"
                   className="rounded-md"
                 />
               </div>
               <div className="flex bg-pink-500 w-36 h-64 mt-8 rounded-md">
                 <img
-                  src="https://davidjforer.com/wp-content/uploads/2021/11/origin.jpg"
+                  src="https://res.cloudinary.com/david-j-forer/image/upload/c_scale,w_214/v1638084913/IMG-20200904-WA0000_hkt9gx.jpg"
                   className="rounded-md"
                 />
               </div>
             </div>
-            <div>
-              <div className="flex bg-gray-500 w-36 h-64 rounded-md mt-16">
-                <img
-                  src="https://davidjforer.com/wp-content/uploads/2021/11/origin.jpg"
-                  className="rounded-md"
-                />
-              </div>
-              <div className="flex bg-pink-500 w-36 h-64 mt-8 rounded-md">
-                <img
-                  src="https://davidjforer.com/wp-content/uploads/2021/11/origin.jpg"
-                  className="rounded-md"
-                />
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
-      <div className="border-t-2 border-gray-300 dark:border-white-300 w-screen"></div>
+      <div className="border-t-2 border-gray-300 dark:border-white-300 w-screen" />
     </div>
   );
 }
